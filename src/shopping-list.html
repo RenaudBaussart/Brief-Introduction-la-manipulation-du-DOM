@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-        
+    <title>Shopping-list</title>
+
+    <!--custom font import-->
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');</style>   
+
     <!--link to the css file-->
     <link rel="stylesheet" href="../style.css">
+
+    <!--custom theme for tailwind-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#e3da8d',
+                    },
+                    fontFamily: {
+                        sketch: 'Cabin Sketch',
+                        tiltNeonSansSerif: "Cabin Sketch ,sans-serif",
+                    }
+                }
+            }
+        }
+    </script>
+
 </head>
 <body class="ShoppingPage">
-    <main>
+    <main class="bg-background">
         <article>
             <h1>Liste de course</h1>
             <p>Que veux tu ajouter a la liste de course</p>
