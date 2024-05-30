@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <!--link tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--link to the css file-->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="bg-green-50">
+    <header class="mb-6">
+        <section class="Navbar flex flex-row justify-evenly border-b border-black py-3">
+            <a href="carousel.html">Carousel</a>
+            <a href="score-keeper.html">Shoping list</a>
+            <a href="shopping-list.html">Score keeper</a>
+        </section>
+    </header>
+    <main>
+        <figure class="carousel"><img id="screenCarousel" class="carouselImage1" src="../res/carousel/Carousel-1.png" alt="Image in the carousel"></figure>
+        
+        <button class="CarouselButton" onclick="changeImage('left')"><</button>
+        <button class="CarouselButton" onclick="changeImage('right')">></button>
+
+        <!--link to the js file-->
+        <script src="./scripts/carousel.js"></script>
+        </main>
+</body>
+</html>
