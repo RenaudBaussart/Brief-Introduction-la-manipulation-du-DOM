@@ -1,0 +1,15 @@
+.carousel{
+    height: 70%;
+    width: 70%;
+    .carouselImage1{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+.CarouselButton{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 4em;
+    color: rgba(128, 128, 128, 0.616);
+    border-radius: 20%;
+}
