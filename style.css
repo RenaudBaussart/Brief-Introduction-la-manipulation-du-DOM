@@ -107,4 +107,11 @@ section.scoreBoard .wrapperScoreP2 {
   font-size: 1.15em;
 }
 
+.overlayScoreKeeper {
+  background-image: url(./res/scoreKeeper/old-filter.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
