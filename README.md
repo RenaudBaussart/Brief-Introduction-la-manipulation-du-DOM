@@ -1,9 +1,9 @@
 
 <h1 align="center">REPO NAME</h1>
 <p> 
-    <img src='https://img.shields.io/badge/Mail-Renaud.Baussart%40proton.me-purple'>
-    <a href='https://www.linkedin.com/in/renaud-baussart-278b362bb/'>
-        <img src='https://img.shields.io/badge/linkedin-blue'>
+    <img src='https://img.shields.io/badge/Mail-Renaud.Baussart%40proton.me-purple'/>
+    <a href='https://www.linkedin.com/in/renaud-baussart-278b362bb'>
+        <img src='https://img.shields.io/badge/linkedin-blue'/>
     </a>
     <a href='https://twitter.com/RenaudBaussart'>
         <img src='https://img.shields.io/badge/Twitter%20%2F%20X-grey'/>
@@ -30,11 +30,10 @@
 ## checklist
 <details>
 <summary></summary>
-- [ ] page carousel <br>
-- [ ] page shoping list<br>
-- [ ] page score keeper <br>
-- [ ] make a index <br>
-
+- [x] page carousel <br>
+- [x] page shoping list<br>
+- [x] page score keeper <br>
+- [x] make a index <br>
 </details>
 
 ## Author
