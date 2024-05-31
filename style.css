@@ -69,6 +69,10 @@ a.navlinkcarousel {
   text-shadow: 0px 0px 3px #002f64, 0px 0px 8px #ffffff;
 }
 
+.CarouselButton {
+  text-shadow: 0px 0px 3px #002f64, 0px 0px 8px #ffffff;
+}
+
 section.scoreBoard .wrapperScoreP1 {
   border: solid #fe0000 8px;
   margin-top: 20px;
@@ -116,6 +120,9 @@ section.scoreBoard .wrapperScoreP2 {
 .shoppingPage ul {
   padding-left: 6em;
 }
+.shoppingPage .deletebutton {
+  color: #37d3d3;
+}
 
 .scoreKeeperPage * {
   font-family: tiltNeon;
@@ -127,6 +134,50 @@ section.scoreBoard .wrapperScoreP2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.backgroundIndex {
+  background-image: url(./res/indexbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 150%;
+}
+
+.startButton {
+  background-color: black;
+  height: 10%;
+  width: 20%;
+  color: #800080;
+  border: #800080 solid 4px;
+  border-radius: 10px;
+  font-size: 60px;
+  box-shadow: 0px 0px 15px #ac00ac, 8px 8px 10px black;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.indexPageSelector {
+  background-color: black;
+  height: 10%;
+  width: 22%;
+  color: #800080;
+  border: #800080 solid 4px;
+  border-radius: 10px;
+  font-size: 60px;
+  box-shadow: 0px 0px 15px #ac00ac, 8px 8px 10px black;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  display: none;
+  margin: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
