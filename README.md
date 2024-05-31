@@ -16,7 +16,9 @@
 ---
 
 ### About The Project
-in this brief we have to make 3 small page a use js to manipulate the dom
+
+<p>in this brief we have to make 3 small page a use js to manipulate the dom</p>
+
 ---
 
 ### Built With
