@@ -6,6 +6,9 @@ function addItemList(){
         let newItem = document.createElement('li');
         newItem.textContent = ' - ' + itemToAdd;
         document.getElementById('shoppingList').append(newItem);
+        newItem.classList.add("font-sketch");
+        newItem.classList.add("text-xl");
+        newItem.classList.add("py-2");
         document.getElementById('articleToAdd').value = '';
         return;
     }
