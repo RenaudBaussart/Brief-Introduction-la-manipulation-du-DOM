@@ -1,8 +1,8 @@
-let activeCarouselImg = "./res/carousel/Carousel-1.png";
+let activeCarouselImg = "../res/carousel/Carousel-1.png";
 document.getElementById('screenCarousel').src = activeCarouselImg;
 let imageSelected = 1;
 function changeImage(direction){
-    let newImage = "./res/carousel/Carousel-";
+    let newImage = "../res/carousel/Carousel-";
     if(direction == 'left'){
             imageSelected--;
             if(imageSelected < 1){
